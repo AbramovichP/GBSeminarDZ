@@ -21,7 +21,10 @@ void ThirdNumber(int n)
             Console.WriteLine("Третья цифра заданного числа: "+ res2);    
         }
 }
+
 Console.Write("Введите любое целое число: ");
 int number = Convert.ToInt32(Console.ReadLine());
+
 if(number < 0)number = number * -1;
+
 ThirdNumber(number);
