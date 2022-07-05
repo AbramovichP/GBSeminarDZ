@@ -10,11 +10,12 @@ void FillArray(int[] array)
 
 void PrintArray(int[] array)
 {
+    Console.Write("[");
     for(int i = 0; i < array.Length; i++)
     {
-        Console.Write($" [{array[i]}]");
+        Console.Write($" {array[i]}");
     }
-    Console.WriteLine();
+    Console.WriteLine(" ]");
 }
 
 int[] arr = new int[8];
