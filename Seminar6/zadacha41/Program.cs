@@ -28,4 +28,4 @@ if(volume > 0)
     int[] hisArray = RequestForNumbers(volume);
     Console.WriteLine("Количество введеных чисел больше нуля = " + NumbersGreaterThanZero(hisArray));
 }
-else Console.WriteLine("На нет и суда нет.");
+else Console.WriteLine("Число должно быть больше нуля!");
