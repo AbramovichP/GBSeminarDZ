@@ -11,7 +11,7 @@ double[,] Create2dArray(int rows, int columns, int minValue, int maxValue)
     return newArray;
 }
 
-void PrintArray(double[,] array)
+void Print2dArray(double[,] array)
 {
     for(int i = 0; i < array.GetLength(0); i++)
     {    
@@ -29,4 +29,4 @@ int n = Convert.ToInt32(Console.ReadLine());
 
 double[,] my2dArray = Create2dArray(m, n, -9, 8);
 
-PrintArray(my2dArray);
+Print2dArray(my2dArray);
