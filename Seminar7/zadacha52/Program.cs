@@ -47,5 +47,5 @@ int n = Convert.ToInt32(Console.ReadLine());
 
 int[,] my2dArray = Create2dArray(m,n,1,9);
 Print2dArray(my2dArray);
-Console.WriteLine();
+Console.Write("Среднее арифметическое каждого столбца: ");
 ArithmeticMeanInTheColumn(my2dArray);
