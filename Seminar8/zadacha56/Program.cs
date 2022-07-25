@@ -25,7 +25,7 @@ void Print2dArray(int[,] array)
 
 int[] SumElementsRows(int[,] array)
 {
-    int [] arraySum = new int[array.GetLength(0)];
+    int[] arraySum = new int[array.GetLength(0)];
 
     for(int i = 0; i < array.GetLength(0); i++)
     {
