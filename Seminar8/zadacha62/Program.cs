@@ -25,25 +25,8 @@ int[,] SpiralFilling2dArray(int[,] array)
     Console.WriteLine(count);
     for(int k = 0; k < count; k++)
     {   
-        int fill = 1;
-        for(int l = array.GetLength(0)-2; l > 0 ; l--)
-        {
-            
-            for(int h = array.GetLength(1)-2; h >= 0; h--)
-            {
-                   for(int j = 1; j < array.GetLength(0); j++)
-                    {
-                         for(int i = 0; i < array.GetLength(1); i++)
-                        {                            
-                            array[0,i] = i + 1;
-                            
-                        }               
-                        array[j,array.GetLength(1)-1] = 4 + j;
-                    }
-                    array[array.GetLength(0)-1,h] = 7 - h;
-            }
-            array[l,0] = 10 - l;
-        }
+       
+        
 
     }
     return array;
